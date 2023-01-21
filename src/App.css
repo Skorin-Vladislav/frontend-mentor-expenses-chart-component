@@ -19,7 +19,7 @@ body {
 }
 
 .App {
-  background-color: var(--very-pale-orange);
+  background-color: var(--cream);
   min-height: 100vh;
   padding: 1em;
 }
@@ -47,4 +47,48 @@ body {
 
 .header .logo {
   max-width: 20%;
+}
+
+.spending-box {
+  padding: 0.7em;
+  border-radius: 10px;
+  background-color: white;
+  font-family: "DM Sans", sans-serif;
+}
+
+.spending-box .spending-txt {
+  font-size: 1.2em;
+  color: var(--dark-brown);
+}
+
+.charts-results {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.total .total-txt {
+  font-size: 0.8em;
+  color: var(--medium-brown);
+}
+
+.total .total-value {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: var(--dark-brown);
+}
+
+.changes {
+  text-align: right;
+}
+
+.changes .change-percent {
+  color: black;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.changes .last-month {
+  font-size: 0.8em;
+  color: var(--medium-brown);
 }
