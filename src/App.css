@@ -78,6 +78,8 @@ body {
   min-height: 200px;
   gap: 10px;
   text-align: center;
+
+  margin-top: 1.1em;
 }
 
 .charts p {
@@ -100,7 +102,7 @@ body {
   border-radius: 5px;
   align-self: end;
 }
-/* align-self: end; */
+
 #wed {
   grid-area: 1/3;
   max-height: 0%;
@@ -237,4 +239,10 @@ body {
 .line {
   color: var(--cream);
   margin: 0.5em 0;
+}
+
+@media only screen and (min-width: 600px) {
+  .wrapper {
+    min-width: 30% !important;
+  }
 }
